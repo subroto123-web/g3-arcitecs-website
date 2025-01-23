@@ -124,6 +124,13 @@ font-weight: bold;
   margin: 28px auto;
  }
 
+ /* section love styles */
+
+ .fact-container{
+  display: flex;
+  justify-content: space-around;
+ }
+
  /* mobile media query */
  @media screen and (max-width:576px) {
   .display-flex{
@@ -148,16 +155,15 @@ font-weight: bold;
 
 .teams {
   flex-direction: column;
-  margin: 0 auto;
+  margin: 100 auto;
 }
 .display-flex {
   display: flex;
   flex-direction: column;}
-  
+
   .img-container{
     justify-content: center;
     margin: 0 auto;
     justify-items: center;
   }
 }
-  
