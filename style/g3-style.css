@@ -249,6 +249,18 @@ font-weight: bold;
   font-weight: 500;
 }
 
+/* footer styles */
+.footer{
+  max-width: 1440px;
+  max-height: 100px;
+  border-radius: 8px;
+  margin: 130px auto;
+  justify-items: center;
+  align-items: center;
+  background-color: #FFF4E7;
+
+}
+
  /* mobile media query */
  
  @media screen and (max-width:576px) 
