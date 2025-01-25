@@ -196,14 +196,68 @@ font-weight: bold;
 .spon-img{
   filter: grayscale(100%);
 }
-.
+/* enjoy section styles */
+.enjoy{
+  margin-top: 130px;
+  gap: 54px;
+}
+
+.enjoy-title{
+  font-weight: bold;
+  font-size: 2.81rem;
+  margin-left: 5px solid #FF900E;
+}
+#enjoy-sec-border{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+
+.card-ti{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.card-des{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.enjoy-card{
+  border-radius: 8px;
+  box-shadow: 0 4 30 0 rgba(0, 0, 0, 0.06);
+  gap: 0;
+  padding: 30px;
+}
+.enjoy-img{
+  max-height: 1059px;
+}
+.enjoy-btn{
+  max-width: 342px;
+  padding: 45px 42px;
+  background-color: #FF900E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: -92px;
+  margin-top: -77px;
+}
+.enjoy-btn1{
+  font-size: 4.06rem;
+  font-weight: bold;
+}
+.enjoy-btn2{
+  font-size: 1.56rem;
+  font-weight: 500;
+}
 
  /* mobile media query */
- @media screen and (max-width:576px) {
-  .teams
-  {
-    display: flex;
-    flex-direction : column;
+ 
+ @media screen and (max-width:576px) 
+ {
+  .teams{
+    flex-direction:column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 130px;
   }
   .img-container{
     display: grid;
